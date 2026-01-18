@@ -7,3 +7,10 @@
 .inter {
   font-family: "Inter", sans-serif;
 }
+
+/* shared css end  */
+
+/* hero section style  */
+#hero-section{
+    /* background-image: url('/assets/hero-bg.png'); */
+}
