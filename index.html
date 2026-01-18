@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- tailwind end  -->
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome end  -->
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- google font end  -->
+    <link rel="stylesheet" href="./style/tailwind.css">
+    <link rel="stylesheet" href="./style/style.css">
     <title>TechWave</title>
 </head>
-<body>
-    
+
+<body class=" bg-[#1A0B2E] inter ">
+    <!-- header section  -->
+    <header>
+        <!-- nav section  -->
+        <section class="mx-[10px] max-w-[1200px] mx-8 mt-8 md:mx-auto ">
+            <nav>
+                <ul class="flex justify-between md:items-center">
+                    <li><a href="#home" class="text-2xl md:text-5xl font-black text-white">Tech<span
+                                class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent cursor-pointer">Wave</span></a>
+                    </li>
+                    <li class="relative">
+                        <ul class="flex gap-5 text-white">
+                            <li class="hidden md:block"><a href="">About</a></li>
+                            <li class="hidden md:block"><a href="">Episodes</a></li>
+                            <li class="hidden md:block"><a href="">Host</a></li>
+                        </ul>
+                        <details class="md:hidden text-white absolute right-0 text-right ">
+                            <summary class="">
+                                <i class="fa-solid fa-bars"></i>
+                            </summary>
+                            <p class="mb-2"><a href="">About</a></p>
+                            <p class="mb-2"><a href="">Episodes</a></p>
+                            <p class="mb-2"><a href="">Host</a></p>
+                            <p><button
+                                    class="  flex items-center gap-1 text-base primary-btn py-[12px] px-[16px] rounded-4xl text-white font-semibold focus:scale-90 cursor-pointer">Subscribe<i
+                                        class="fa-solid fa-arrow-right text-sm"></i></button></p>
+                        </details>
+                    </li>
+                    <li class="hidden md:block">
+                        <button
+                            class="  flex items-center gap-1 text-base primary-btn py-[12px] px-[16px] rounded-4xl text-white font-semibold focus:scale-90 cursor-pointer">Subscribe<i
+                                class="fa-solid fa-arrow-right text-sm"></i></button>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <!-- nav section end  -->
+    </header>
+    <!-- header section end  -->
+
+
+    <!-- main section  -->
+    <main>
+
+    </main>
+    <!-- main section end  -->
+
+
+
+    <!-- footer section  -->
+    <footer>
+
+    </footer>
+
+
+    <!-- footer section end  -->
 </body>
+
 </html>
