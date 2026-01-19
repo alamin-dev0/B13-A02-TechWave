@@ -31,14 +31,14 @@
     <!-- header section  -->
     <header>
         <!-- nav section  -->
-        <section class="mx-[10px] max-w-[1200px] mx-8 mt-8 md:mx-auto mb-6">
+        <section class="mx-[10px] section-max-width mt-8 md:mx-auto mb-6 ">
             <nav>
-                <ul class="flex justify-between md:items-center">
+                <ul class="flex justify-between md:items-center opacity-[90%]">
                     <li><a href="#home" class="text-2xl md:text-5xl font-black text-white">Tech<span
                                 class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent cursor-pointer">Wave</span></a>
                     </li>
                     <li class="relative">
-                        <ul class="flex gap-5 text-white">
+                        <ul class="flex gap-8 text-white">
                             <li class="hidden md:block"><a href="">About</a></li>
                             <li class="hidden md:block"><a href="">Episodes</a></li>
                             <li class="hidden md:block"><a href="">Host</a></li>
@@ -65,13 +65,13 @@
 
         </section>
         <!-- nav section end  -->
-        <hr class="text-[#9801f2]">
+        <hr class="text-[#9a66b8]">
         <!-- hero section  -->
         <section id="hero-section" class="bg-[url('./assets/hero-bg.png')] bg-no-repeat
- mx-[10px] max-w-[1600px] mx-8 mt-8 md:mx-auto bg-cover relative">
+  max-w-[1600px] mt-8 md:mx-auto bg-size-[100%]  relative">
             <div class="max-[550px] max-h-[350px]: md:max-h-full">
                 <span
-                    class="bg-green-400 px-2.5 scroll-py-1.5 rounded-2xl absolute right-1/4 top-[30px]  md:top-16 md:right-[40%]  dropshadow animation">NEW</span>
+                    class="bg-green-400 px-2.5 scroll-py-1.5 rounded-2xl absolute right-1/4 top-[15px]  md:top-20 md:right-[40%]  dropshadow animation">NEW</span>
                 <div class="text-center bg-[url('./assets/hero-circle.png')] bg-no-repeat
  bg-center tems-center  flex bg-size-[45%] md:bg-size-[30%] md: md:max-h-[550px] h-52 md:h-[600px]">
                     <img class="w-12 md:w-[150px] m-auto " src="./assets/microphone.png" alt="">
@@ -79,35 +79,93 @@
 
             </div>
 
+            <!-- hero description section -->
 
-
-            <section class="pb-10 md:pb-24">
+            <section class="pb-10 md:pb-24 mx-[10px]">
                 <div class="text-white text-center">
                     <h1 class="text-4xl font-extrabold mb-2 md:text-6xl">TechWave</h1>
-                    <p class="mb-6">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                    <p class="mb-6 opacity-[80%]">Your daily dose of tech insights, productivity hacks, and personal
+                        growth</p>
                     <div class="flex justify-center gap-2">
                         <button
                             class="  flex items-center gap-1 text-base primary-btn py-[12px] px-[16px] rounded-4xl text-white font-semibold focus:scale-90 cursor-pointer"><i
                                 class="fa-brands fa-spotify"></i>Listen on Spotify</button>
                         <button
-                            class="  flex items-center gap-1 text-base py-[12px] px-[16px] rounded-4xl  font-semibold focus:scale-90 cursor-pointer border-2 text-green-500"><i
+                            class=" spotify-btn flex items-center gap-1 text-base py-[12px] px-[16px] rounded-4xl  font-semibold focus:scale-90 cursor-pointer border-2 text-green-500"><i
                                 class="fa-regular fa-envelope"></i>Listen on Spotify</button>
 
                     </div>
                 </div>
             </section>
+            <!-- hero description section end  -->
         </section>
         <!-- hero section end  -->
-        <!-- hero description section  -->
 
-        <!-- hero description section end -->
     </header>
     <!-- header section end  -->
 
 
     <!-- main section  -->
-    <main>
+    <main class="section-max-width md:mx-auto  mx-[10px]">
+        <!-- about the podcast section  -->
+        <section>
+            <div class="text-white text-center mb-20 max-w-[720px] mx-auto">
+                <h1 class=" text-3xl font-bold md:text-5xl mb-4">About the Podcast</h1>
+                <p class="mb-6 opacity-[80%]">
+                    TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
 
+                    We break down complex topics into digestible insights, explore productivity strategies that
+                    actually
+                    work,
+
+                    and share stories of personal growth from industry leaders.
+
+                </p>
+                <p class="opacity-[80%]">
+                    Join thousands of young professionals and tech enthusiasts who start their day
+                    with
+                    TechWave.
+                </p>
+            </div>
+            <hr class="text-[#b899ca]">
+            <div class="mt-6 grid grid-cols-2 md:grid-cols-4 gap-10 pb-10 md:pb-28">
+                <div class="text-center">
+                    <h2 class="text-4xl md:text-5xl font-black text-green-500 mb-4">150K+</h2>
+                    <p class="text-white opacity-[80%]">Monthly Listeners</p>
+                </div>
+                <div class="text-center">
+                    <h2 class="text-4xl md:text-5xl font-black text-green-500 mb-4">200+</h2>
+                    <p class="text-white opacity-[80%]">Episodes Published</p>
+                </div>
+                <div class="text-center">
+                    <h2 class="text-4xl md:text-5xl font-black text-green-500 mb-4">4.9<i class="fa-solid fa-star"></i>
+                    </h2>
+                    <p class="text-white opacity-[80%]">Average Rating</p>
+                </div>
+                <div class="text-center">
+                    <h2 class="text-4xl md:text-5xl font-black text-green-500 mb-4">50+</h2>
+                    <p class="text-white opacity-[80%]">Industry Experts</p>
+                </div>
+            </div>
+        </section>
+        <!-- about the podcast section end -->
+
+
+        <!-- why chose techwave section  -->
+        <section class="bg-[#260c47] text-white">
+            <h2 class="text-3xl font-bold mb-4 pt-9 pb-4 text-center ">Why Choose TechWave</h2>
+            <div>
+                <div class="p-6 rounded-3xl card-bg">
+                    <img src="./assets/headphone.png"
+                        alt="This is headphone . Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.">
+                    <h3>Premium Audio Quality</h3>
+                    <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio
+                        engineering. Every episode is mastered for optimal listening across all devices and platforms.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- why chose techwave section end -->
     </main>
     <!-- main section end  -->
 

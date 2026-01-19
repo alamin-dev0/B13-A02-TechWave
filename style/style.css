@@ -1,5 +1,3 @@
-
-
 @keyframes a-roted {
     from {
         transform: rotate(0deg) scale(0.7);
@@ -14,12 +12,17 @@
 
 /* shared css  */
 
-.primary-btn {
-    background-image: linear-gradient(30deg, #f7c850, #f60ab8 , #9100F8);
-}
+
+
 
 .inter {
     font-family: "Inter", sans-serif;
+}
+
+
+.section-max-width {
+
+    max-width: 1200px;
 }
 
 /* shared css end  */
@@ -33,4 +36,28 @@
 
 .animation {
     animation: a-roted 5s infinite alternate-reverse;
+}
+
+
+/* button style  */
+
+.primary-btn {
+    background-image: linear-gradient(30deg, #f7c850, #f60ab8, #9100F8);
+    /* border-image:  linear-gradient(30deg, #f7c850, #f60ab8, #9100F8); */
+}
+
+/* .primary-btn:hover {
+    background: transparent;
+    border: solid white;
+} */
+
+
+.spotify-btn {}
+
+/* button style end  */
+
+
+.card-bg {
+
+    background: rgba(53, 17, 101, 0.4);
 }
