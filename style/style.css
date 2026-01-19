@@ -59,3 +59,9 @@
     background: rgba(53, 17, 101, 0.4);
 }
 
+@media screen and (max-width:410px) {
+    .hero-button-container{
+        grid-template-columns: 1fr;
+        max-width: 200px;
+    }
+}
