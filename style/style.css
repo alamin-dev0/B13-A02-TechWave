@@ -8,18 +8,10 @@
         transform: rotate(1080deg) scale(1.5);
     }
 }
-
-
 /* shared css  */
-
-
-
-
 .inter {
     font-family: "Inter", sans-serif;
 }
-
-
 .section-max-width {
 
     max-width: 1200px;
@@ -36,29 +28,34 @@
 
 .animation {
     animation: a-roted 5s 1s ease-out infinite alternate forwards;
-   
-}
 
+}
 
 /* button style  */
-
 .primary-btn {
     background-image: linear-gradient(30deg, #f7c850, #f60ab8, #9100F8);
-    /* border-image:  linear-gradient(30deg, #f7c850, #f60ab8, #9100F8); */
+    transition: all 0.3s ease;
+    /* border: solid white 3px; */
+    /* border-image: 3px linear-gradient(30deg, #f7c850, #f60ab8, #9100F8); */
 }
 
-/* .primary-btn:hover {
-    background: transparent;
-    border: solid white;
-} */
+.primary-btn:hover {
+    transform: scale(0.9);
+}
 
+.spotify-btn {
+    transition: all 0.3s ease;
+}
 
-.spotify-btn {}
+.spotify-btn:hover {
+    background-color: green;
+    color: white;
+    border: green solid 2px;
+}
 
 /* button style end  */
 
-
 .card-bg {
-
     background: rgba(53, 17, 101, 0.4);
 }
+
