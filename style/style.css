@@ -1,16 +1,35 @@
-
 /* shared css  */
 
-.primary-btn{
-    background-image: linear-gradient(50deg, #F7E93F , #9100F8);
+@keyframes a-roted {
+    from {
+        transform: rotate(0deg) scale(0.7);
+
+    }
+
+    to {
+        transform: rotate(1080deg) scale(1.5);
+    }
 }
+
+
+
+.primary-btn {
+    background-image: linear-gradient(50deg, #F7E93F, #9100F8);
+}
+
 .inter {
-  font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 /* shared css end  */
 
 /* hero section style  */
-#hero-section{
-    /* background-image: url('/assets/hero-bg.png'); */
+
+
+.dropshadow {
+    filter: drop-shadow(2px 2px 3px #9500f6);
+}
+
+.animation {
+    animation: a-roted 5s infinite alternate-reverse;
 }
