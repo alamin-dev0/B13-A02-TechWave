@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -35,11 +35,11 @@
             <nav>
                 <ul class="flex justify-between md:items-center opacity-[90%]">
                     <li><a href="#home" class="text-2xl md:text-5xl font-black text-white">Tech<span
-                                class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent cursor-pointer">Wave</span></a>
+                                class="bg-gradient-to-tr from-yellow-300 via-pink-500 to-purple-500 bg-clip-text text-transparent cursor-pointer">Wave</span></a>
                     </li>
                     <li class="relative">
                         <ul class="flex gap-8 text-white">
-                            <li class="hidden md:block"><a href="">About</a></li>
+                            <li class="hidden md:block"><a href="#about">About</a></li>
                             <li class="hidden md:block"><a href="">Episodes</a></li>
                             <li class="hidden md:block"><a href="">Host</a></li>
                         </ul>
@@ -70,12 +70,12 @@
         <hr class="text-[#9a66b8]">
         <!-- hero section  -->
         <section id="hero-section" class="bg-[url('./assets/hero-bg.png')] bg-no-repeat
-  max-w-[1600px] mt-8 md:mx-auto bg-size-[100%]  relative z-0">
+   mt-8 md:mx-auto bg-size-[100%]  relative z-0">
             <div class="max-[550px] max-h-[350px]: md:max-h-full">
-                <span
-                    class="bg-green-400 px-2.5 scroll-py-1.5 rounded-2xl absolute right-1/4 top-[15px]  md:top-20 md:right-[40%]  dropshadow animation">NEW</span>
+                <span class="bg-green-400 px-2.5 scroll-py-1.5 rounded-2xl absolute right-1/4 top-[15px]  md:top-20 md:right-[38%]  dropshadow animation
+">NEW</span>
                 <div class="text-center bg-[url('./assets/hero-circle.png')] bg-no-repeat
- bg-center tems-center  flex bg-size-[45%] md:bg-size-[30%] md: md:max-h-[550px] h-52 md:h-[600px]">
+ bg-center tems-center  flex bg-size-[45%] md:bg-size-[30%] md: md:max-h-[580px] h-52 md:h-[600px]">
                     <img class="w-12 md:w-[12%] m-auto " src="./assets/microphone.png" alt="">
                 </div>
 
@@ -83,14 +83,14 @@
 
             <!-- hero description section -->
 
-            <section class="pb-10 md:pb-24 mx-[10px]">
+            <section class="pb-10 md:pb-24 mx-[10px] mt-6 md:mt-0">
                 <div class="text-white text-center">
                     <h1 class="text-4xl font-extrabold mb-2 md:text-6xl">TechWave</h1>
                     <p class="mb-6 opacity-[80%]">Your daily dose of tech insights, productivity hacks, and personal
                         growth</p>
                     <div class="grid grid-cols-2 justify-center gap-2 max-w-[400px] mx-auto hero-button-container">
                         <button
-                            class="  flex items-center gap-1 text-base primary-btn py-[12px] px-[16px] rounded-4xl text-white font-semibold focus:scale-90 hover:scale-105 cursor-pointer"><i
+                            class="flex items-center gap-1 text-base primary-btn py-[12px] px-[16px] rounded-4xl text-white font-semibold focus:scale-90 hover:scale-105 cursor-pointer"><i
                                 class="fa-brands fa-spotify"></i>Listen on Spotify</button>
                         <button
                             class=" spotify-btn flex items-center gap-1 text-base py-[12px] px-[16px] rounded-4xl  font-semibold focus:scale-90 cursor-pointer border-2 text-green-500"><i
@@ -110,7 +110,7 @@
     <!-- main section  -->
     <main class=" ">
         <!-- about the podcast section  -->
-        <section class=" mx-[10px] section-max-width md:mx-auto">
+        <section id="about" class=" mx-[10px] section-max-width md:mx-auto">
             <div class="text-white text-center mb-20 max-w-[720px] mx-auto">
                 <h1 class=" text-3xl font-bold md:text-5xl mb-4">About the Podcast</h1>
                 <p class="mb-6 opacity-[80%]">
@@ -154,7 +154,7 @@
 
 
         <!-- why chose techwave section  -->
-        <section class="bg-[#260c47] text-white md:py-28">
+        <section class="bg-[#260c47] text-white md:py-28 pb-6">
             <h2 class="text-3xl font-bold mb-4 pt-9 pb-4 text-center ">Why Choose TechWave</h2>
             <div class=" mx-4 grid gap-4 md:gap-7 md:grid-cols-3 md:grid-rows-3 section-max-width mx-auto">
                 <div class="p-6 rounded-3xl card-bg col-span-1 row-span-2 grid items-center">
@@ -210,14 +210,97 @@
 
         <!-- seatured empisodes section  -->
 
-        <section class="bg-[#1A0B2E] text-white">
-            <h2 class="pt-10 font-bold text-3xl text-center">Featured Episodes</h2>
-            <div class="section-max-width mx-auto">
-                
+        <section class="bg-[#1A0B2E] text-white mb-14 md:mb-28">
+            <h2 class="pt-10 font-bold text-3xl text-center mb-6">Featured Episodes</h2>
+            <div class="section-max-width mx-auto grid md:grid-cols-3 gap-4">
+                <div class="mx-4 md:max-w-96 max-h-[500px] rounded-2xl pb-4 card-bg">
+                    <iframe class="max-w-full rounded-t-2xl max-h-53" width="100%" height="315"
+                        src="https://www.youtube.com/embed/b0bdKLiLV0M?si=crtYCn62PE43poDx" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="p-4 md:pb-6">
+                        <h2 class="font-bold text-2xl my-4">The Future of AI in Everyday Life</h2>
+                        <p class="mb-4 opacity-60">Exploring how artificial intelligence is transforming our daily routines and
+                            what to expect in
+                            the next...</p>
+                        <span class="text-green-500"><i class="fa-solid fa-clock"></i>42 min</span>
+                    </div>
+                </div>
+                <div class="mx-4 md:max-w-96 max-h-[500px] rounded-2xl pb-4 card-bg">
+                    <iframe class="max-w-full rounded-t-2xl max-h-53" width="100%" height="315"
+                        src="https://www.youtube.com/embed/RO14DsVxZtM?si=vbRnHu_EdO6fYjFB" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="p-4 md:pb-6">
+                        <h2 class="font-bold text-2xl my-4">The Future of AI in Everyday Life</h2>
+                        <p class="mb-4 opacity-60">Exploring how artificial intelligence is transforming our daily routines and
+                            what to expect in
+                            the next...</p>
+                        <span class="text-green-500"><i class="fa-solid fa-clock"></i>42 min</span>
+                    </div>
+                </div>
+                <div class="mx-4 md:max-w-96 max-h-[500px] rounded-2xl pb-4 card-bg">
+                    <iframe class="max-w-full rounded-t-2xl max-h-53" width="100%" height="315"
+                        src="https://www.youtube.com/embed/uudNhqHcs6o?si=ZwBx-7xgS7fdvVoh" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="p-4 md:pb-6">
+                        <h2 class="font-bold text-2xl my-4">The Future of AI in Everyday Life</h2>
+                        <p class="mb-4 opacity-60">Exploring how artificial intelligence is transforming our daily routines and
+                            what to expect in
+                            the next...</p>
+                        <span class="text-green-500"><i class="fa-solid fa-clock"></i>42 min</span>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- seatured empisodes section end  -->
+
+        <!-- host section  -->
+        <section class="section-max-width mx-auto ">
+            <h2 class="text-3xl text-white font-bold text-center mb-6">Meet the Host</h2>
+            <div class="bg-[#250d44] text-white text-center p-6 m-4 rounded-3xl md:flex gap-6 md:text-left md:items-center">
+               <div class="md:w-[500px] md:m-10 md:mr-0 h-auto">
+                   <img class="m-auto mb-4 max-w-full w-52 h-auto" src="./assets/host.png" alt="">
+               </div>
+
+               <div>
+                <h2 class="text-2xl mb-4 font-bold text-3xl">Alex Kumar</h2>
+                <p class="opacity-60 mb-4">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been
+                    in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through
+                    TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow
+                    in tech.</p>
+                <ul class="flex gap-3.5 justify-center md:justify-start items-center">
+
+                    <a target="_blank" href="https://www.linkedin.com/">
+                        <li class="p-5 max-w-full border-1 rounded-4xl"><img class="max-w-[20px]"
+                                src="./assets/linkedin.png" alt=""></img></li>
+                    </a>
+                    <a target="_blank" href="https://x.com/">
+                        <li class="p-5 max-w-full border-1 rounded-4xl"><img class="max-w-[20px]" src="./assets/x.png"
+                                alt=""></img></li>
+
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <li class="p-5 max-w-full border-1 rounded-4xl"><img class="max-w-[20px]"
+                                src="./assets/instagram.png" alt=""></img>
+                        </li>
+
+                    </a>
+
+                    <a target="_blank" href="https://www.youtube.com/">
+                        <li class="p-5 max-w-full border-1 rounded-4xl"><img class="max-w-[20px]"
+                                src="./assets/youtube.png" alt=""></img></li>
+                    </a>
+                </ul>
+               </div>
+            </div>
+        </section>
+        <!-- host section end  -->
     </main>
     <!-- main section end  -->
 

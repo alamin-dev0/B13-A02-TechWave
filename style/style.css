@@ -8,10 +8,12 @@
         transform: rotate(1080deg) scale(1.5);
     }
 }
+
 /* shared css  */
 .inter {
     font-family: "Inter", sans-serif;
 }
+
 .section-max-width {
     /* margin: 0 auto; */
     max-width: 1200px;
@@ -33,10 +35,9 @@
 
 /* button style  */
 .primary-btn {
-    background-image: linear-gradient(30deg, #f7c850, #f60ab8, #9100F8);
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
     transition: all 0.3s ease;
-    /* border: solid white 3px; */
-    /* border-image: 3px linear-gradient(30deg, #f7c850, #f60ab8, #9100F8); */
+
 }
 
 .primary-btn:hover {
@@ -60,8 +61,12 @@
 }
 
 @media screen and (max-width:410px) {
-    .hero-button-container{
+    .hero-button-container {
         grid-template-columns: 1fr;
         max-width: 200px;
+    }
+
+    section.bg-\[\#260c47\].text-white.md\:py-28 {
+        padding-bottom: 30px;
     }
 }
