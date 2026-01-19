@@ -1,4 +1,4 @@
-/* shared css  */
+
 
 @keyframes a-roted {
     from {
@@ -12,9 +12,10 @@
 }
 
 
+/* shared css  */
 
 .primary-btn {
-    background-image: linear-gradient(50deg, #F7E93F, #9100F8);
+    background-image: linear-gradient(30deg, #f7c850, #f60ab8 , #9100F8);
 }
 
 .inter {
