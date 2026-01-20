@@ -65,6 +65,23 @@ section#footer-section {
     background: rgba(53, 17, 101, 0.4);
 }
 
+@media (min-width:530px) and (max-width:767px) {
+    .text-center.bg-\[url\(\'\.\/assets\/hero-circle\.png\'\)\].bg-no-repeat.bg-center.tems-center.flex.bg-size-\[40\%\].\32 xl\:bg-size-\[25\%\].md\:bg-size-\[30\%\].md\:max-h-\[480px\].h-52.md\:h-\[800px\].\32 xl\:max-h-\[660px\] {
+    height: 310px;
+}
+
+img.w-12.md\:w-\[12\%\].m-auto {
+    width: 100px;
+}
+
+span.bg-green-400.px-2\.5.scroll-py-1\.5.rounded-2xl.absolute.right-1\/4.top-\[15px\].md\:top-20.md\:right-\[38\%\].\32 xl\:right-\[41\%\].\32 xl\:top-32.dropshadow.animation {
+    right: 31%;
+}
+}
+
+
+
+
 @media screen and (max-width:410px) {
     .hero-button-container {
         grid-template-columns: 1fr;
