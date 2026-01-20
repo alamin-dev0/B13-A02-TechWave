@@ -1,7 +1,7 @@
 @keyframes a-roted {
     from {
-        transform: rotate(0deg) scale(0.7);
-
+        transform: rotate(0deg) scale(0.1);
+        right: 30%;
     }
 
     to {
