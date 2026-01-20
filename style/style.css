@@ -48,10 +48,12 @@
     transition: all 0.3s ease;
 }
 
+
 .spotify-btn:hover {
     background-color: green;
     color: white;
     border: green solid 2px;
+    transform: scale(1.05);
 }
 section#footer-section {
     background-size: 100% 100%;
